@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TDCGifLoader_Example' do
+  pod 'TDCGifLoader', :path => '../'
+
+  target 'TDCGifLoader_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
