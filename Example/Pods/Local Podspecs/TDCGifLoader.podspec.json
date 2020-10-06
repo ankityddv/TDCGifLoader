@@ -1,0 +1,22 @@
+{
+  "name": "TDCGifLoader",
+  "version": "0.1.0",
+  "summary": "A short description of TDCGifLoader.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ankityddv/TDCGifLoader",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ankityddv": "yadavankit840@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ankityddv/TDCGifLoader.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TDCGifLoader/Classes/**/*"
+}

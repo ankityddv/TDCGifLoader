@@ -1,0 +1,16 @@
+PODS:
+  - TDCGifLoader (0.1.0)
+
+DEPENDENCIES:
+  - TDCGifLoader (from `../`)
+
+EXTERNAL SOURCES:
+  TDCGifLoader:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TDCGifLoader: e860f562fa3e4eef793f729ad7e8a9a52ebfc2f8
+
+PODFILE CHECKSUM: 665d82780f3feab89cd60fc58148de4e9444ca31
+
+COCOAPODS: 1.9.3

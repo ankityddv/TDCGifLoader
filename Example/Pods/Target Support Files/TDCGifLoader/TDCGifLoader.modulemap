@@ -1,0 +1,6 @@
+framework module TDCGifLoader {
+  umbrella header "TDCGifLoader-umbrella.h"
+
+  export *
+  module * { export * }
+}

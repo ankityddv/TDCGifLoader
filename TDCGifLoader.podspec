@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TDCGifLoader'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TDCGifLoader.'
+  s.summary          = 'TDCGifLoader is an awesome cocoapod used to load GIFs in our xcode porject in just one line of code.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  'TDCGifLoader is an awesome cocoapod used to load GIFs in our xcode porject in just one line of code.'
                        DESC
 
   s.homepage         = 'https://github.com/ankityddv/TDCGifLoader'
@@ -26,11 +26,13 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ankityddv' => 'yadavankit840@gmail.com' }
   s.source           = { :git => 'https://github.com/ankityddv/TDCGifLoader.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'TDCGifLoader/Classes/**/*'
+  
+  
+  s.social_media_url = 'https://twitter.com/ankityddv'
+  s.ios.deployment_target = '12.0'
+  s.platform     = :ios, "12.0"
+  s.source_files = 'Source/**/*.swift'
+  
   
   # s.resource_bundles = {
   #   'TDCGifLoader' => ['TDCGifLoader/Assets/*.png']
